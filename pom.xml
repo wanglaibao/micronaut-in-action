@@ -39,26 +39,37 @@
         <dependency>
             <groupId>io.micronaut</groupId>
             <artifactId>http-client</artifactId>
+            <version>${micronaut.version}</version>
         </dependency>
 
         <dependency>
             <groupId>io.micronaut</groupId>
             <artifactId>http-server-netty</artifactId>
+            <version>${micronaut.version}</version>
         </dependency>
 
         <dependency>
             <groupId>io.micronaut</groupId>
             <artifactId>inject</artifactId>
+            <version>${micronaut.version}</version>
         </dependency>
 
         <dependency>
             <groupId>io.micronaut</groupId>
             <artifactId>runtime</artifactId>
+            <version>${micronaut.version}</version>
         </dependency>
 
         <dependency>
             <groupId>io.micronaut</groupId>
             <artifactId>inject-java</artifactId>
+            <version>${micronaut.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.micronaut.configuration</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${micronaut.version}</version>
         </dependency>
 
         <dependency>
