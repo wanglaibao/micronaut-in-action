@@ -66,10 +66,16 @@
         </dependency>
 
         <dependency>
-            <groupId>io.micronaut.configuration</groupId>
-            <artifactId>micronaut-hibernate-validator</artifactId>
+            <groupId>io.micronaut</groupId>
+            <artifactId>micronaut-validation</artifactId>
             <version>${micronaut.version}</version>
         </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>io.micronaut.configuration</groupId>-->
+            <!--<artifactId>micronaut-hibernate-validator</artifactId>-->
+            <!--<version>${micronaut.version}</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>io.micronaut</groupId>

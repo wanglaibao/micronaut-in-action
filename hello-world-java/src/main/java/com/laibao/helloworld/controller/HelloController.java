@@ -22,4 +22,11 @@ public class HelloController {
     public Single<String> hello(@NotBlank String name) {
         return Single.just("Hello " + name + "!");
     }
+
+
+
+    @Get("/{address}")
+    public Single<String> getAddress(@NotBlank String address) {
+        return Single.just("Hello " + address + "!");
+    }
 }
