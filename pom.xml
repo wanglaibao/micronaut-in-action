@@ -23,17 +23,17 @@
         <micronaut.version>1.0.0.RC2</micronaut.version>
    </properties>
 
-    <!--<dependencyManagement>-->
-        <!--<dependencies>-->
-            <!--<dependency>-->
-                <!--<groupId>io.micronaut</groupId>-->
-                <!--<artifactId>bom</artifactId>-->
-                <!--<version>${micronaut.version}</version>-->
-                <!--<type>pom</type>-->
-                <!--<scope>import</scope>-->
-            <!--</dependency>-->
-        <!--</dependencies>-->
-    <!--</dependencyManagement>-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.micronaut</groupId>
+                <artifactId>bom</artifactId>
+                <version>${micronaut.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -77,6 +77,15 @@
             <artifactId>logback-classic</artifactId>
             <version>1.2.3</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.micronaut.test/micronaut-test-core -->
+        <!--<dependency>-->
+            <!--<groupId>io.micronaut.test</groupId>-->
+            <!--<artifactId>micronaut-test-core</artifactId>-->
+            <!--<version>1.0.0.RC1</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+
 
         <dependency>
             <groupId>junit</groupId>
