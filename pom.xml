@@ -75,6 +75,12 @@
         </dependency>
 
         <dependency>
+            <groupId>io.micronaut</groupId>
+            <artifactId>micronaut-websocket</artifactId>
+            <version>${micronaut.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.3</version>
@@ -84,7 +90,6 @@
         <!--<dependency>-->
             <!--<groupId>io.micronaut.test</groupId>-->
             <!--<artifactId>micronaut-test-core</artifactId>-->
-            <!--<version>1.0.0.RC1</version>-->
             <!--<scope>test</scope>-->
         <!--</dependency>-->
 
