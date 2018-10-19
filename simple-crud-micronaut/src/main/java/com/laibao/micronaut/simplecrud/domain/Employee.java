@@ -1,8 +1,5 @@
 package com.laibao.micronaut.simplecrud.domain;
 
-/**
- * Created by A on 2018/10/19.
- */
 public class Employee {
     private long id;
     private String name;
