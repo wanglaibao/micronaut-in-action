@@ -5,6 +5,7 @@
   <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>hello-world-java</module>
+        <module>hello-micronaut</module>
     </modules>
     <packaging>pom</packaging>
 
