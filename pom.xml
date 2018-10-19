@@ -6,6 +6,7 @@
     <modules>
         <module>hello-world-java</module>
         <module>hello-micronaut</module>
+        <module>simple-crud-micronaut</module>
     </modules>
     <packaging>pom</packaging>
 
