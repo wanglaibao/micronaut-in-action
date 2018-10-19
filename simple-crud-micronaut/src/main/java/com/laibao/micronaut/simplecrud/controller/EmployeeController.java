@@ -115,6 +115,21 @@ public class EmployeeController {
     @Produces(MediaType.APPLICATION_JSON)
     @Post("/updateEmployee")
     public JSONObject updateEmployee( @Size(max = 1024) @Body Employee employee ) {
+
+//        url: http://localhost:8080/employee/updateEmployee
+//        JSON格式的测试数据如下:
+//        {
+//            "id":1000,
+//             "name":"金戈0",
+//             "salary":20000
+//        }
+//
+//        测试结果: OK
+//        {
+//            "EmpId": 35,
+//             "message": "Employee updated successfully"
+//        }
+
         return employeeService.saveOrUpdateEmployee(employee);
     }
 
@@ -126,6 +141,16 @@ public class EmployeeController {
     @Produces(MediaType.APPLICATION_JSON)
     @Get("/deleteEmployee")
     public JSONObject deleteEmployee(@QueryValue("id") long id) {
+
+//        url: http://localhost:8080/employee/deleteEmployee?id=1004
+
+//        测试结果: OK
+//        {
+//            "empId": 1004,
+//            "message": "Employee has been deleted successfully",
+//             "status": "success"
+//        }
+
         return employeeService.deleteEmployee(id);
     }
 }
