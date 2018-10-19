@@ -10,8 +10,14 @@ Micronaut 是 Grails 团队的新作，在 Grails 框架的基础之上吸取大
 
 Micronaut 的灵感来自于这些年作者使用 Spring、Spring Boot 和 Grails 构建从大型应用到服务应用的经历。
 
+the IoC part of Micronaut can be used completely independently of Micronaut itself for whatever application type you may wish to build. 
 
+To do so all you need to do is configure your build appropriately to include the micronaut-inject-java dependency as an annotation processor.
 
+dependencies {
+    annotationProcessor "io.micronaut:micronaut-inject-java:1.0.0.BUILD-SNAPSHOT"
+    compile "io.micronaut:micronaut-inject:1.0.0.BUILD-SNAPSHOT"
+}
 
 [Getting started with Micronaut] (https://jonas-havers.de/articles/getting-started-with-micronaut/)
 
