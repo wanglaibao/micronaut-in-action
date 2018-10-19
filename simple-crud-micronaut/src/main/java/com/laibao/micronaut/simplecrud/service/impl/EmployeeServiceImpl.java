@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.inject.Singleton;
 import java.util.*;
+import java.util.stream.Collectors;
 
 @Singleton
 public class EmployeeServiceImpl implements EmployeeService{
@@ -82,9 +83,9 @@ public class EmployeeServiceImpl implements EmployeeService{
     public JSONObject getEmployees() {
         JSONObject jsonObject = new JSONObject();
         try {
-            List<Employee> employees = (List<Employee>) employeeMap.values();
-            if ( employees != null) {
-                jsonObject.put("Data", employees);
+            List<Employee> employeeList = employeeMap.values().stream().collect(Collectors.toList());
+            if ( employeeList != null) {
+                jsonObject.put("data", employeeList);
             } else {
                 jsonObject.put(EmployeeServiceImpl.MESSAGE, "There are no employees exist in System.");
             }

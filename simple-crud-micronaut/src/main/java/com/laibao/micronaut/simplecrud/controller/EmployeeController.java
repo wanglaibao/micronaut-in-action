@@ -68,6 +68,41 @@ public class EmployeeController {
     @Produces(MediaType.APPLICATION_JSON)
     @Get("/getEmployees")
     public JSONObject getEmployees() {
+
+//        url: http://localhost:8080/employee/getEmployees
+
+//        测试结果: OK
+//        {
+//            "data": [
+//            {
+//                "id": 1004,
+//                    "name": "金戈4",
+//                    "salary": 10000
+//            },
+//            {
+//                "id": 1003,
+//                    "name": "金戈3",
+//                    "salary": 10000
+//            },
+//            {
+//                "id": 1002,
+//                    "name": "金戈2",
+//                    "salary": 10000
+//            },
+//            {
+//                "id": 1001,
+//                    "name": "金戈1",
+//                    "salary": 10000
+//            },
+//            {
+//                "id": 1000,
+//                    "name": "金戈0",
+//                    "salary": 10000
+//            }
+//    ],
+//            "status": "success"
+//        }
+
         JSONObject jsonObject = employeeService.getEmployees();
         return jsonObject;
     }
