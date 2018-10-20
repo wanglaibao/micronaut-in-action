@@ -8,6 +8,9 @@ public class Bus {
 
     private Engine engine;
 
+    /**
+     * JavaBean property injection
+     */
     @Inject
     public void setEngine(Engine engine) {
         this.engine = engine;
