@@ -8,6 +8,7 @@
         <module>hello-micronaut</module>
         <module>simple-crud-micronaut</module>
         <module>micronaut-ioc</module>
+        <module>annotation-processor</module>
     </modules>
     <packaging>pom</packaging>
 
