@@ -6,6 +6,7 @@ import javax.inject.Singleton;
 public class Vehicle {
 
     private final Engine engine;
+
     /**
      * The Engine is injected via constructor injection
      */
