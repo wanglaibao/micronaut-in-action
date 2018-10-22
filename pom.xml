@@ -9,6 +9,7 @@
         <module>simple-crud-micronaut</module>
         <module>micronaut-ioc</module>
         <module>annotation-processor</module>
+        <module>dagger-ioc</module>
     </modules>
     <packaging>pom</packaging>
 
