@@ -10,6 +10,7 @@
         <module>micronaut-ioc</module>
         <module>annotation-processor</module>
         <module>dagger-ioc</module>
+        <module>micronaut-reactor</module>
     </modules>
     <packaging>pom</packaging>
 
