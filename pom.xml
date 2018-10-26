@@ -83,47 +83,47 @@
             <!--<version>${micronaut.version}</version>-->
         <!--</dependency>-->
 
-        <dependency>
-            <groupId>io.micronaut</groupId>
-            <artifactId>micronaut-websocket</artifactId>
-            <version>${micronaut.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>io.micronaut</groupId>-->
+            <!--<artifactId>micronaut-websocket</artifactId>-->
+            <!--<version>${micronaut.version}</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>io.micronaut</groupId>
-            <artifactId>micronaut-spring</artifactId>
-            <version>${micronaut.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>io.micronaut</groupId>-->
+            <!--<artifactId>micronaut-spring</artifactId>-->
+            <!--<version>${micronaut.version}</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>io.micronaut</groupId>
-            <artifactId>micronaut-aop</artifactId>
-            <version>${micronaut.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>io.micronaut</groupId>-->
+            <!--<artifactId>micronaut-aop</artifactId>-->
+            <!--<version>${micronaut.version}</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>io.micronaut</groupId>
-            <artifactId>micronaut-router</artifactId>
-            <version>${micronaut.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>io.micronaut</groupId>-->
+            <!--<artifactId>micronaut-router</artifactId>-->
+            <!--<version>${micronaut.version}</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>io.micronaut</groupId>
-            <artifactId>micronaut-security</artifactId>
-            <version>${micronaut.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>io.micronaut</groupId>-->
+            <!--<artifactId>micronaut-security</artifactId>-->
+            <!--<version>${micronaut.version}</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>io.micronaut</groupId>
-            <artifactId>micronaut-function-web</artifactId>
-            <version>${micronaut.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>io.micronaut</groupId>-->
+            <!--<artifactId>micronaut-function-web</artifactId>-->
+            <!--<version>${micronaut.version}</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>io.micronaut</groupId>
-            <artifactId>micronaut-function</artifactId>
-            <version>${micronaut.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>io.micronaut</groupId>-->
+            <!--<artifactId>micronaut-function</artifactId>-->
+            <!--<version>${micronaut.version}</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>com.alibaba</groupId>
