@@ -20,7 +20,8 @@
         <project.build.sourceEncoding>${java.encoding}</project.build.sourceEncoding>
         <junit.version>4.12</junit.version>
        <!--<micronaut.version>1.0.0.RC3</micronaut.version>-->
-        <micronaut.version>1.0.0</micronaut.version>
+        <!--<micronaut.version>1.0.0</micronaut.version>-->
+       <micronaut.version>1.0.1</micronaut.version>
    </properties>
 
     <dependencyManagement>
