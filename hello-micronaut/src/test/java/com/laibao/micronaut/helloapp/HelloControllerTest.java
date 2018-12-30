@@ -35,14 +35,18 @@ public class HelloControllerTest {
     }
 
     @Test
+    public void testHelloAlading() {
+        HttpRequest<String> request = HttpRequest.GET("/hello/Alading");
+        String body = client.toBlocking().retrieve(request);
+        assertEquals("Hello Alading", body);
+    }
+
+    @Test
     public void testHello() throws Exception {
         HttpRequest request = HttpRequest.GET("/hello"); // <3>
         String body = client.toBlocking().retrieve(request);
         assertNotNull(body);
-        assertEquals(
-                body,
-                "Hello World"
-        );
+        assertEquals(body, "Hello World");
     }
 
     @Test
