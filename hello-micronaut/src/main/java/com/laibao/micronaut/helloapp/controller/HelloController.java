@@ -14,4 +14,8 @@ public class HelloController {
         return "Hello World"; // <4>
     }
 
+    @Get("/{name}")
+    public String hello(String name) {
+        return "Hello " + name;
+    }
 }
