@@ -5,7 +5,7 @@
 
 
 
-
+[MICRONAUT™: A JAVA FRAMEWORK FOR THE FUTURE, NOW] (https://objectcomputing.com/resources/publications/sett/july-2018-micronaut-framework-for-the-future)
 
 
 
