@@ -44,4 +44,15 @@ public class HelloControllerTest {
                 "Hello World"
         );
     }
+
+    @Test
+    public void testHelloName() throws Exception {
+        HttpRequest request = HttpRequest.GET("/hello/jinge"); // <3>
+        String body = client.toBlocking().retrieve(request);
+        assertNotNull(body);
+        assertEquals(
+                body,
+                "Hello jinge"
+        );
+    }
 }
